@@ -7,14 +7,17 @@ package excod1av;
 public class ExCOD1Av {
 
     public static void main(String[] args) {
-           
+
         int x = 0;
         int y = 0;
         int Sum;
-        
-        Sum=x+y;
-        
-        System.out.println(Sum);
+        int Resta;
+
+        Sum = x + y;
+        Resta = x - y;
+
+        System.out.println("la suma es de" + Sum + "\n" + Resta);
+
     }
 
 }
